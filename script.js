@@ -138,7 +138,20 @@ function clearCompletedTasks() {
 //  removeToDoItem(0); // This should remove the todo item with ID 0 from the array
 //  markToDoItemAsCompleted(0); // This should mark the todo item with ID 0 as completed
 
-addToDoItem("Test ToDo");
+addToDoItem("Brush Teeth");
+addToDoItem("Eat Breakfast");
+addToDoItem("Go to School");
+addToDoItem("Eat Lunch");
+addToDoItem("Go to Work");
+addToDoItem("Eat Dinner");
+addToDoItem("Go to Sleep");
 console.log(todoItems);
 markToDoItemAsCompleted(0);
-removeToDoItem(0);
+markToDoItemAsCompleted(2);
+removeToDoItem(0);  
+removeToDoItem(1);
+removeToDoItem(2);
+removeToDoItem(3);
+removeToDoItem(4);
+removeToDoItem(5);
+removeToDoItem(6);
